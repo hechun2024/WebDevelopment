@@ -1,4 +1,6 @@
 # macOS system files
 .DS_Store
 **/node_modules/
+scrum.pdf
+self-assesment.xlsx
 
