@@ -1,0 +1,26 @@
+.CreditCard {
+  width: 360px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#cardLogo {
+  width: 60px;
+  align-self: end;
+}
+
+#cardNumber {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 450;
+  margin: 20px 15px;
+}
+
+#cardInfo {
+  text-align: left;
+  font-size: 16px;
+}
