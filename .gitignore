@@ -1,6 +1,13 @@
 # macOS system files
 .DS_Store
-**/node_modules/
-scrum.pdf
-self-assesment.xlsx
 
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# PDF & Excel files (personal or submission files)
+*.pdf
+*.xlsx
+
+# Optional: project-specific personal files
+self-assessment- He Chun.xlsx
