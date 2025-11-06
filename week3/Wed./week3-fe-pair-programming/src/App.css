@@ -552,7 +552,7 @@ Navbar
   }
   /* 图标本体 */
   .nav-icon {
-    display: inline-flex;
+    display: inline-flex; /* 让图标水平排*/
     align-items: center;
     justify-content: center;
     color: var(--clr-primary-5);
