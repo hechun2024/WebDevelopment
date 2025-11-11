@@ -1,11 +1,13 @@
 const express = require("express");
 const app = express();
 const tourRouter = require("./routes/tourRouter");
+const userRouter = require("./routes/userRouter");
 
-// Middleware to parse JSON
+// Middleware to parse JSON — 必须早于路由挂载
 app.use(express.json());
 
-// Use the carRouter for all /cars routes
+// 挂载 routers
+app.use("/users", userRouter);
 app.use("/tours", tourRouter);
 
 const port = 4000;
